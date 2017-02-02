@@ -1,0 +1,50 @@
+.form{
+
+    background: grey;
+    color: black;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 3%;
+    width: 40%;
+
+}
+.signup{
+    padding-left: 6%;
+    padding-top:5%;
+
+}
+
+.login{
+    padding-left: 4%;
+    padding-top:3%;
+
+}
+#name,#email,#password,#passwordenter,#contact,#street,#area,#city,#dist,#state,#coun{
+    width: 470px;
+}
+.registration{
+    background: url('https://lh6.ggpht.com/URxMQedPp-yBJncS9B9OXJ9MXn-8ZaSU-IElEhcoKZdLaZHo12O9nRiZHlXI_fIE4B0=h900');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+h1
+{
+    color:ghostwhite;
+    padding-left:40%;
+    padding-top: 1%;
+}
+.buttons{
+    display: inline;
+
+}
+#signup{
+    color:cadetblue;
+    background-color:powderblue;
+}
+#cancel{
+    color:cadetblue;
+    background-color:yellow;
+
+}
