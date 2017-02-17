@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mic2"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Convert text to speech"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the text"
+        android:id="@+id/TVusername"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:clickable="true"
+        android:layout_weight="0.07"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_vertical"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="Speak"
+        android:id="@+id/bspeak"
+        android:onClick="doSomething"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+    <Button
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/bstopspeaking"
+        android:layout_gravity="center_horizontal"
+        android:onClick="doSomething"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+</LinearLayout>
