@@ -1,0 +1,25 @@
+<ion-view title="Mashup App Login">
+    <ion-content>
+         <div class="row row-center" >
+        <div class="col text-center" >
+            <img src="http://iconizer.net/files/Bright/thumb/128/users.png">
+        </div>
+      </div>
+            <div class="list list-inset">
+       
+                <label class="item item-input">
+                    <input ng-model="username" type="text" placeholder="Username" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="password" type="password" placeholder="Password" />
+                </label>
+            </div>
+            <div class="padding-left padding-right">
+              <button class="button button-block button-balanced padding-horizontal" ng_click="login(username,password)" type="submit">Login</button>
+                 
+ 
+        Don't have an account <a href="#register" class="balanced">Register Here</a>
+            </div>
+        <div class="error">  {{loginFailureMessage}}</div>
+    </ion-content>
+</ion-view>
