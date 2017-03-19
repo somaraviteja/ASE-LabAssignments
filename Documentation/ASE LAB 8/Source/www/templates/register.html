@@ -1,0 +1,40 @@
+
+<ion-view view-title="Registration Form">
+ <ion-pane>
+<ion-header-bar>
+  <button class="button button-icon icon ion-home" ng-click="login()" ></button>
+  <h1 class="title">Register</h1>
+  <button class="button button-clear button-positive" ng-click="logout()">Logout</button>
+
+</ion-header-bar>
+
+  <ion-content padding="true">
+ <div class="row row-center" >
+        <div class="col text-center" >
+            <img src="data:image/png;base64,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">
+        </div>
+      </div>
+      <div class="list" id="registerList">
+      
+  <label class="item item-input">
+    <input type="text" id="username" class="form-control" placeholder="Enter Username" required autofocus ng-model="username">
+  </label>
+  <label class="item item-input">
+ <input type="password" id="password" class="form-control" placeholder="Enter Password" required autofocus ng-model="password">
+  </label>
+    <label class="item item-input">
+   <input type="text" id="email" class="form-control" placeholder="Enter Email" required autofocus ng-model="email">
+  </label>
+      <label class="item item-input">
+        <input type="text" id="question" class="form-control" placeholder="Enter Phone Number" required autofocus ng-model="question">
+      </label>
+      <label class="item item-input">
+        <input type="text" id="answer" class="form-control" placeholder="Enter Address" required autofocus ng-model="answer">
+      </label>
+      <button class="button button-block button-balanced padding-horizontal"  ng-click="register(username,password,email,question,answer)">Register</button>
+</div>
+<div class="error">  {{message}}</div>
+      <div class="success">      {{successmessage}}</div>
+  </ion-content>
+            </ion-pane>
+</ion-view>
